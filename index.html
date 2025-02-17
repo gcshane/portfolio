@@ -117,35 +117,37 @@
     </div>
     <div class="footer">
         <!-- Copyright &#169; The Odin Project 2021 -->
-         <a>Adapted from The Odin Project</a>.
+         <a href="https://www.theodinproject.com">Adapted from The Odin Project</a>.
     </div>  
 </body>
 
 <script>
 
     let i = 0;
-    let txt = " Software Engineer";
+    let j = 0;
+    let txt = [" Software Engineer", " Full-Stack Developer"];
     let forward = true
     let target = document.getElementById("engineer");
 
     function typeWriter() {
 
-        if (i == txt.length && forward) {
+        if (i == txt[j].length && forward) {
             forward = false;
         }
         else if (i == 0 && ! forward) {
             forward = true;
+            j = j ^ 1;
         }
 
         if (forward) {
-            target.innerHTML += txt.charAt(i);
+            target.innerHTML += txt[j].charAt(i);
             i++;
         }
         else {
             target.innerHTML = target.innerHTML.slice(0, -1);
             i--;
         }
-        if (i == txt.length) {
+        if (i == txt[j].length) {
             setTimeout(typeWriter, 1500);
         }
         else {

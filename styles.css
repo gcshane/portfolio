@@ -25,6 +25,10 @@ a {
     color: #e5e7eb;
 }
 
+.link-icon {
+    height: 30px;
+}
+
 .hero-header {
     margin-right: auto;
     font-size: 24px;
@@ -36,6 +40,7 @@ a {
     font-size: 36px;
     font-weight: bolder;
     margin: 0;
+    height: 42.5px;
 }
 
 .row-1 {

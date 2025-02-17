@@ -1,5 +1,3 @@
-# Shane's Landing Page
+# My Portfolio
 
-Hello! Welcome to my landing page!
-
-This project was done for the Landing Page project under the Foundations Course of The Odin Project.
+Hello and welcome to my personal portfolio page!

@@ -170,6 +170,16 @@ a {
     font-weight: bold;
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-icon {
+    width: 40px;
+}
+
 #me {
     width: 75%;
     align-self: center;

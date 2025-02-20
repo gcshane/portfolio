@@ -1,5 +1,4 @@
 let i = 0;
-let j = 0;
 let txt = "Software Engineer";
 let forward = true
 let target = document.getElementById("engineer");

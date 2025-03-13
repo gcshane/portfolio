@@ -87,7 +87,7 @@ a {
     padding: 0px 10% 80px;
 }
 
-.information-header {
+.information-header, .song-header {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
@@ -125,11 +125,15 @@ a {
 }
 
 .songs {
+    background-color: #e5e7eb;
+    padding: 80px 10%;
+
+}
+
+.song-grid {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #e5e7eb;
-    padding: 80px 10%;
     gap: 32px;
 }
 
@@ -139,7 +143,7 @@ a {
     flex: 1 1 22%;
 }
 
-.quote-text {
+/* .quote-text {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -152,7 +156,7 @@ a {
     margin: 0px;
     font-weight: bold;
     font-size: 24px;
-}
+} */
 
 .call-to-action {
     color: #e5e7eb;

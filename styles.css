@@ -83,8 +83,8 @@ a {
     text-align: center;
 }
 
-.information {
-    padding: 0px 10% 80px;
+.information, .songs {
+    padding: 50px;
 }
 
 .information-header, .song-header {
@@ -126,8 +126,6 @@ a {
 
 .songs {
     background-color: #e5e7eb;
-    padding: 80px 10%;
-
 }
 
 .song-grid {
